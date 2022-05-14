@@ -29,7 +29,7 @@
 %
 %============================================================================%
 
-\documentclass[10pt,A4,english]{article}	
+\documentclass[10pt,letter]{article}	
 
 
 %----------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@
 
 % we use utf8 since we want to build from any machine
 \usepackage[utf8]{inputenc}		
-\usepackage[USenglish]{isodate}
+\usepackage[UKenglish]{isodate}
 \usepackage{fancyhdr}
 \usepackage[numbers]{natbib}
 
@@ -49,7 +49,7 @@
 % provides \isempty test
 \usepackage{xstring, xifthen}
 \usepackage{enumitem}
-\usepackage[english]{babel}
+\usepackage[spanish]{babel}
 \usepackage{blindtext}
 \usepackage{pdfpages}
 \usepackage{changepage}
@@ -67,11 +67,9 @@
 %\usepackage[default]{gillius}
 %\usepackage[light,math]{iwona}
 %\usepackage[thin]{roboto} 
-
 % set font default
 \renewcommand*\familydefault{\sfdefault} 	
 \usepackage[T1]{fontenc}
-
 % more font size definitions
 \usepackage{moresize}
 
@@ -427,227 +425,208 @@
 
 
 \begin{leftcolumn}
-%---------------------------------------------------------------------------------------
-%	META IMAGE
+%----------------------------------------------------------------------------------------
+%	Imagen de perfil 
 %----------------------------------------------------------------------------------------
 \includegraphics[width=\linewidth]{resources/image.jpg}	%trimming relative to image size
 
-%---------------------------------------------------------------------------------------
-%	META SKILLS
+%----------------------------------------------------------------------------------------
+%	Habilidades (barra izquierda)
 %----------------------------------------------------------------------------------------
 	\fcolorbox{white}{white}{\begin{minipage}[c][1.5cm][c]{1\mpwidth}
-		\LARGE{\textbf{\textcolor{maincol}{Philip Empl}}} \\[2pt]
-		\normalsize{ \textcolor{maincol} {Management Information Systems (M. Sc.)} }
+		\LARGE{\textbf{\textcolor{maincol}{Dr. Jes\'us Capistr\'an}}} \\[2pt]
+		\normalsize{ \textcolor{maincol} {Doctor en Ingenier\'ia: Energ\'ia} }
 \end{minipage}} \\
-\icontext{CaretRight}{12}{XX.XX.XXXX in Los Angeles}{black}\\[6pt]
-\icontext{CaretRight}{12}{german}{black}\\[6pt]
-\icontext{CaretRight}{12}{unmarried}{black}\\[6pt]
+
+\icontext{CaretRight}{12}{Candidato-SNI (2022)}{black}\\[6pt]
+\icontext{CaretRight}{12}{07 septiembre 1986}{black}\\[6pt]
+\icontext{CaretRight}{12}{Mexicano}{black}\\[6pt]
+\icontext{CaretRight}{12}{Soltero}{black}\\[6pt]
 
 
 
-\cvsection{Skills}
+\cvsection{Habilidades}
 
-\cvskill{Software development} {6+ Jahre} {1} \\[-2pt]
 
-\cvskill{Cyber security} {4+ yrs.} {0.64} \\[-2pt]
+%\cvskill{Recubrimientos \'opticos} {9+ yrs.} {1} \\[-2pt]
+ 
+\cvskill{Desarrollo de celdas solares de pel\'icula delgada} {10+ a\~nos} {1} \\[-2pt]
 
-\cvskill{Internet business/ \newline E-commerce} {4+ yrs.} {0.64} \\[-2pt]
+\cvskill{Sintesis y caracterizaci\'on de materiales} {8+ a\~nos} {0.9} \\[-2pt]
 
-\cvskill{Web development} {2+ yrs.} {0.32} \\[-2pt]
+\cvskill{Instalaci\'on, operaci\'on y mantenimiento de equipos de laboratorio} {5+ a\~nos} {0.75} \\[-2pt]
 
-\cvskill{Big data/ \newline Data science} {2+ yrs.} {0.32} \\[-2pt]
+\cvskill{Divulgaci\'on de la ciencia} {4+ a\~nos} {0.64} \\[-2pt]
 
-\cvskill{Distributed legder \newline technology} {2+ yrs.} {0.32} \\[-2pt]
+\cvskill{Programaci\'on python} {4+ yrs.} {0.5} \\[-2pt]
 
-\cvskill{Internet of things} {1+ yrs.} {0.16} \\[-2pt]
+\cvskill{Docencia } {2+ a\~nos} {0.45} \\[-2pt]
 
-\cvskill{Cloud computing} {1+ yrs.} {0.16} \\[-2pt] \\
+\cvskill{Innovaci\'on tecn\'ologica} {1+ a\~nos} {0.3} \\[-2pt]
 
-\cvskill{German} {L1} {1} \\[-2pt]
 
-\cvskill{English} {C1} {0.9} \\[-2pt]
+%----------------------------------------------------------------------------------------
+%	Idiomas (barra izquierda)
+%----------------------------------------------------------------------------------------
+
+\cvsection{Idiomas}
+
+\cvskill{Espa\~nol} {L1} {1} \\[-2pt]
+
+\cvskill{Ingl\'es} {C1} {0.85} \\[-2pt]
+
 
 \newpage
 %---------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-\cvsection{Education}
+%	Educaci�n
+%---------------------------------------------------------------------------------------
+\cvsection{Educaci\'on}
 
 \cvmetaevent
-{XX/XXXX - XX/XXXX}
-{Management Information Systems (M.Sc.)}
-{University of Lorem}
-{\textit{Field 1 • Field 2} \newline Master's thesis: \glqq title of Master's thesis\grqq.}
+{01/2013 - 08/2017}
+{Doctor en Ingenier\'ia}
+{Universidad Nacional Aut\'onoma de M\'exico (IER-UNAM)}
+{\textit{ -- Ciencia de materiales --} \newline Tesis: Celdas solares de pel\'iculas delgadas de Ag-Sb-S.}
 \cvmetaevent
-{XX/XXXX - XX/XXXX}
-{Managment Information Systems (B.Sc.)}
-{University of Lorem}
-{\textit{Field 1 • Field 2} \newline Bachelor's thesis: \glqq title of Master's thesis\grqq.}
+{08/2010 - 01/2013}
+{Maestro en Ingenier\'ia}
+{Universidad Nacional Aut\'onoma de M\'exico (CIE-UNAM)}
+{\textit{ -- Ciencia de materiales --} \newline Tesis: Celdas solares con pel\'icula delgada de sulfuro de antimonio.}
 
 \cvmetaevent
-{XX/XXXX - XX/XXXX}
-{A-Level}
-{High School Lorem}
-{\textit{Field 1 • Field 2 • Field 3 • Field 4 • Field 5}.}
+{08/2004 - 11/2009}
+{Ingeniero Electromec\'anico}
+{Instituto Tecnol\'ogico de Zacatepec}
+{\textit{ -- Recubrimientos \'opticos --} \newline Memoria de residencia profesional: Desarrollo instrumentaci\'on y evaluaci\'on de un modulo integral de colector solar foto-t\'ermico y controlador de radiaci\'on solar.}
 
+		
 
-%
-%\cvsection{Projekte}
+\cvsection{Intereses}
 
-%	\cvlist{
-%		\item \hyperlink{https://github.com/philipempl/ether-twin}{\textbf{Ether-Twin.}}\\ Ethereum Applikation für Digital Twins.
-%		\item \hyperlink{https://github.com/philipempl/Peter-Pan}{\textbf{Peter Pan.}}\\ Koch-App (t.b.a.).
-%		\item \hyperlink{https://github.com/philipempl/Innovation-Tool}{\textbf{Innovation Tool.}}\\ Webcrawler für \hyperlink{https://ibi.de/}{Ibi}.
-%		\item \hyperlink{https://github.com/philipempl/cozone}{\textbf{COZONE.}} \\ Soziales Netzwerk (t.b.a.).
-%		\item \hyperlink{https://github.com/geritwagner/enlit}{\textbf{ENLIT.}}\\ Exploring new Literature (Bachelorarbeit).
-%		\item \textbf{Crowdfunding.} \\Modul mit \hyperlink{https://senacor.com/}{Senacor} für \hyperlink{https://www.paydirekt.de/}{paydirekt}.
-%		}
-
-\cvsection{Interests}
-
-\icontext{CaretRight}{12}{Guitarist}{black}\\[6pt]
-\icontext{CaretRight}{12}{DIY}{black}\\[6pt]
-\icontext{CaretRight}{12}{Fitness}{black}\\[6pt]
-\icontext{CaretRight}{12}{Cooking}{black}\\[6pt]
-\icontext{CaretRight}{12}{Travel}{black}\\[6pt]
+\icontext{CaretRight}{12}{Lectura}{black}\\[6pt]
+\icontext{CaretRight}{12}{Fotograf\'ia}{black}\\[6pt]
+\icontext{CaretRight}{12}{Redes Sociales}{black}\\[6pt]
+\icontext{CaretRight}{12}{Proyectos STEM}{black}\\[6pt]
+\icontext{CaretRight}{12}{Machine Learning}{black}\\[6pt]
 
 
 
 
-\cvsection{Contact}
+\cvsection{Contacto}
 
-\icontext{MapMarker}{16}{Street name XX\\D-XXXXX Lorem}{black}\\[6pt]
-\icontext{MobilePhone}{16}{+XX XXX XXXX XXXX}{black}\\[6pt]
-\iconemail{Envelope}{16}{XXXX@XXXXX.XX}{XXXX@XXXXX.XX}{black}\\[6pt]
-\iconhref{Home}{16}{XXX.XXX-XXXX.XX}{http://XXX-XXX.XXX.XX}{black}\\[6pt]
-\iconhref{Github}{16}{github.com/username}{https://www.github.com/username}{black}\\[6pt]
-\iconhref{Xing}{16}{xing.com/user\_name}{https://www.xing.com/profile/User_Name}{black}\\
+\icontext{MapMarker}{16}{Ni\~nos H\'eroes No.24\\ Tlaquiltenango Mor. 62980 }{black}\\[6pt]
+\icontext{MobilePhone}{16}{ +52 777 188 5442}{black}\\[6pt]
+\iconemail{Envelope}{16}{capistran@gmail.com}{XXXX@XXXXX.XX}{black}\\[6pt]
+\iconhref{Home}{16}{www.jesuscapistran.com}{https://XXX-XXX.XXX.XX}{black}\\[6pt]
+\iconhref{Github}{16}{github.com/jesuscapistran}{https://www.github.com/username}{black}\\[6pt]
+\iconhref{Twitter}{16}{twitter.com/capis}{https://www.twitter.com/username}{black}\\[6pt]
+
+%\iconhref{Orcid}{16}{orcid.org/0000-0001-8555-5440}{https://www.orcid.org/profile}{black}\\
 
 	
 %\cvqrcode{0.3}
 
 \end{leftcolumn}
 \begin{rightcolumn}
+
 %---------------------------------------------------------------------------------------
 %	TITLE  HEADER
 %----------------------------------------------------------------------------------------
 
 
 %---------------------------------------------------------------------------------------
-%	PROFILE
-%----------------------------------------------------------------------------------------
-\cvsection{Biography}
+%	Biografia (resumen)
+%---------------------------------------------------------------------------------------
+\cvsection{Biograf\'ia}
 \vspace{4pt}
 
 \cvtext{\Blindtext[1]
-
-
-
 
 }
 
 
 %---------------------------------------------------------------------------------------
-%	WORK EXPERIENCE
-%----------------------------------------------------------------------------------------
+%	Experiencia laboral 
+%---------------------------------------------------------------------------------------
 
 \vspace{10pt}
-\cvsection{Work experience}
+\cvsection{Experiencia laboral}
 \vspace{4pt}
 
 
 \cvevent
-{XX/XXXX - today}
-	{Research assistant | PhD student}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
+{2021 - actual}
+	{Posdoctorado | BUAP}
+	{Dispositivos Semiconductores (Dr. Roman Romano) \newline Benem\'erita Universidad Aut\'onoma de Puebla}
+	{Proyecto: Desarrollo de celdas solares de heterouni\'on tipo sustrato utilizando calcogenuros de antimonio-plata mediante ba\~no qu\'imico}
 	\vfill\null
-
-
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Part-time research assistant}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-
 	
 \cvevent
-{XX/XXXX - XX/XXXX}
-	{Trainer - Course name}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
+{2019 - 2020}
+	{Posdoctorado | BUAP}
+	{Instituto de F\'isica (Dra. Mou Pal) \newline Benem\'erita Universidad Aut\'onoma de Puebla}
+	{Proyecto: Desarrollo de calcogenuros de metales de pel\'icula delgada y estudio de heterouniones mediante software SCAPS-1D para el dise\~no de dispositivos opto electr\'onicos.}
 	\vfill\null
 
-
-	
-\cvevent
-    {XX/XXXX - XX/XXXX}
-	{Trainer - Course name}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of ","  is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-	\vfill\null
+%---------------------------------------------------------------------------------------
+%	Equipos de laboratorio
+%---------------------------------------------------------------------------------------
 
 
-   	
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Trainer - Course name}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-	
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Part-time research assistant}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-
-
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Internship}
-	{Department \newline Company name (Location)}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Student assistant}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Trainer - Course name}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-
-
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Working student}
-	{Department \newline Company name (Location)}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-
-\cvsection{Publications}
+\cvsection{Equipos de laboratorio}
 
 \begin{itemize}[leftmargin=*]
 \item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
 \item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
 \item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
 \end{itemize}
+
+
+
+%---------------------------------------------------------------------------------------
+%	Publicaciones
+%---------------------------------------------------------------------------------------
+
+\cvsection{Publicaciones}
+
+\begin{itemize}[leftmargin=*]
+
+\item J. Capistr\'an-Mart\'inez, D. Loeza-D\'iaz, D. Mora-Herrera, F. P\'erez-Rodr\'iguez, M. Pal, 2021 Theoretical evaluation of emerging Cd-free $Cu_3BiS_3$ based solar cells using experimental
+data of chemically deposited $Cu_3BiS_3$ thin films, \textit{J. Alloys Compd.} 867 (2021) 159156. \url{https://doi.org/10.1016/j.jallcom.2021.159156}
+
+\item J. Capistr\'an-Mart\'inez, M.T.S. Nair, P.K. Nair, Silver Antimony Sulfide Selenide Thin Film Solar Cells via Chemical Deposition, \textit{Phys. Status Solidi.} (2021) pssa.202100058. \url{https://doi.org/10.1002/pssa.202100058}
+
+\item Jesus Capistr\'an-Mart\'inez and P.K. Nair, Photoconductive thin films of $AgSbS_2$ with cubic crystalline structure in solar cells, \textit{Phys. Status Solidi (a)}, 212 (2015) 2869-2876. \url{https://doi.org/10.1002/pssa.201532496}
+
+\item Jes\'us Capistr\'an-Mart\'inez, M.T.S. Nair and P.K. Nair, Silver antimony sulfide-selenide for thin film solar cells, \textit{MRS Proceedings}, 1670, mrss14-1670-e05-11 \url{https://doi.org/10.1557/opl.2014.859}
+
+\item M. Jes\'us Capistr\'an, M.T.S. Nair and P.K. Nair, Antimony sulfide and silver antimony sulfide absorbers for thin film solar cells, \textit{MRS Proceedings}, 1447, \url{https://doi.org/10.1557/opl.2012.1085}
+
+\item P.K. Nair, R. Gonz\'alez Lua, M. Calixto-Rodriguez, J. Capistr\'an-Mart\'inez, O. GomezDaza and M.T.S. Nair, Antimony sulfide absorbers in solar cells, \textit{ECS Transactions}, 41(4), 149-156 (2011), \url{https://doi.org/10.1149/1.3628620}
+
+\item P.K. Nair, Enue Barrios-Salgado, Jes\'us Capistr\'an, Mar\'ia Luisa Ram\'on, M.T.S. Nair and Ralph A. Zingaro, PbS thin films in all-chemically deposited solar cells, \textit{J. Electrochem. Soc.} 157 (2010), D528-D537, \url{https://doi.org/10.1149/1.3467844}
+ 
+\end{itemize}
+
+\vspace{10pt}
+\cvsection{Premios}
+\vspace{4pt}
+
+
+\cvevent
+{2014}
+	{Outstanding contribution}
+	{Materials Research Society (MRS)}
+	{Award for the outstanding contribution to Symposium E Earth-Abundant Inorganic Solar Energy Conversion, San Francisco, MRS-2014 Spring Meeting.}
+	\vfill\null
+
+\cvevent	
+{2012}
+	{Mejor sesi\'on oral}
+	{Centro de investigaci\'on en energ\'ia (CIE-UNAM)}
+	{Mejor sesi\'on oral a nivel maestria en el $11^o$ Congreso de estudiantes del Centro de Investigac\'ion en Energ\'ia, Temixco, Mor.}
+	\vfill\null
+
 % hofixes to create fake-space to ensure the whole height is used
 \mbox{}
 \vfill
@@ -664,9 +643,9 @@
 \mbox{}
 
 
-Lorem, \today     \hspace{1cm}   \hrulefill
+ \today     \hspace{1cm}   \hrulefill
 
-\hspace*{30mm}\phantom{Lorem, \today }Philip Empl
+\hspace*{30mm}\phantom{Lorem, \today }Jes\'us Capistr\'an Mart\'inez
 
 \end{rightcolumn}
 \end{paracol}
