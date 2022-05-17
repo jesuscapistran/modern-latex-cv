@@ -41,7 +41,7 @@
 \usepackage[UKenglish]{isodate}
 \usepackage{fancyhdr}
 \usepackage[numbers]{natbib}
-
+\usepackage{mhchem}  % Use chemical formulas  Example: \ce{AgSbS_2}
 %----------------------------------------------------------------------------------------
 %	LOGIC
 %----------------------------------------------------------------------------------------
@@ -72,6 +72,7 @@
 \usepackage[T1]{fontenc}
 % more font size definitions
 \usepackage{moresize}
+
 
 %----------------------------------------------------------------------------------------
 %	FONT AWESOME ICONS
@@ -458,7 +459,7 @@
 
 \cvskill{Divulgaci\'on de la ciencia} {4+ a\~nos} {0.64} \\[-2pt]
 
-\cvskill{Programaci\'on python} {4+ yrs.} {0.5} \\[-2pt]
+\cvskill{Data Science: Python} {4+ yrs.} {0.5} \\[-2pt]
 
 \cvskill{Docencia } {2+ a\~nos} {0.45} \\[-2pt]
 
@@ -540,11 +541,7 @@
 \cvsection{Biograf\'ia}
 \vspace{4pt}
 
-\cvtext{\Blindtext[1]
-
-}
-
-
+\cvtext{Jes\'us es especialista en recubrimientos semiconductores y desarrollo de celdas solares de pel\'icula delgada. Cuenta con m\'as de 10 a\~nos de experiencia en laboratorios de s\'intesis y caracterizaci\´on de materiales. Su formaci\'on de Ingeniero Electromec\'anico le ha permitido instalar, operar y dar mantenimiento a equipos especializados para el desarrollo de semiconductores. Su especialidad se encuentra en la s\'intesis de pel\'iculas delgadas para su aplicaci\'on en dispositivos fotovoltaicos,  por lo cual es capaz de realizar s\'intesis de materiales semiconductores y \'oxidos met\'alicos  mediante distintas t\'ecnicas de deposito como: dep\'osito qu\'imico, spin-coating,  evaporaci\'on t\'ermica y sputtering DC/RF. \newline \newline Cuenta con una actitud participativa para el desarrollo de investigaci\'on cient\'ifica, promueve la innovaci\'on tecnol\'ogica y constantemente realiza comunicaci\'on de la ciencia desde su blog profesional (\url{jesuscapistran.com}) y redes sociales.}
 %---------------------------------------------------------------------------------------
 %	Experiencia laboral 
 %---------------------------------------------------------------------------------------
@@ -557,30 +554,183 @@
 \cvevent
 {2021 - actual}
 	{Posdoctorado | BUAP}
-	{Dispositivos Semiconductores (Dr. Roman Romano) \newline Benem\'erita Universidad Aut\'onoma de Puebla}
-	{Proyecto: Desarrollo de celdas solares de heterouni\'on tipo sustrato utilizando calcogenuros de antimonio-plata mediante ba\~no qu\'imico}
+	{Instituto de Ciencias (Dr. Roman Romano) \newline Benem\'erita Universidad Aut\'onoma de Puebla}
+	{Proyecto: Desarrollo de celdas solares de heterouni\'on tipo sustrato utilizando calcogenuros de antimonio-plata mediante ba\~no qu\'imico. 
+	\begin{itemize}
+		\item Prototipo de celda solar flexible sobre sustratos de acero inoxidable.
+		\item Puesta en marcha de equipo de laboratorio: Sputtering
+	\end{itemize}}
 	\vfill\null
 	
 \cvevent
 {2019 - 2020}
-	{Posdoctorado | BUAP}
+	{Posdoctorado| BUAP}
 	{Instituto de F\'isica (Dra. Mou Pal) \newline Benem\'erita Universidad Aut\'onoma de Puebla}
-	{Proyecto: Desarrollo de calcogenuros de metales de pel\'icula delgada y estudio de heterouniones mediante software SCAPS-1D para el dise\~no de dispositivos opto electr\'onicos.}
+	{Proyecto: Desarrollo de calcogenuros de metales de pel\'icula delgada y estudio de heterouniones mediante software SCAPS-1D para el dise\~no de dispositivos opto electr\'onicos. 
+	\begin{itemize}
+		\item Formaci\'on de recurso humano especializado
+	\end{itemize}
+	}
 	\vfill\null
 
+\cvevent
+{2017 - 2019}
+	{Investigador asociado | CeMIE-Sol P.35}
+	{Centro Mexicano de Innovaci\'on en Energ\'ia Solar \newline Universidad Nacional Aut\'onoma de M\'exico (UNAM)}
+	{Proyecto: Investigaci\'on y desarrollo de celdas solares con materiales novedosos.
+	\begin{itemize}
+		\item Prototipo de celda solar con calcogenuro de metales a nivel laboratorio.
+		\item Estrateg\'ia de transferencia de tecnolog\'ia. 
+	\end{itemize}
+	}
+	\vfill\null
+
+
+
+%---------------------------------------------------------------------------------------
+%	Docencia
+%---------------------------------------------------------------------------------------
+
+
+
+\vspace{10pt}
+\cvsection{Docencia}
+\vspace{4pt}
+
+
+\cvevent
+{2021}
+	{Profesor de asignatura | BUAP}
+	{Mecanica de los Fluidos (Dr. Jes\'us Capistr\'an)\newline Benem\'erita Universidad Aut\'onoma de Puebla}
+	{Actividades: Desarrollo y aplicaci\'on de curso online de Mec\'anica de Fluidos para alumnos de Ingenieria en Energias Renovables. \url{https://jesuscapistran.com/courses/mecanica-de-fluidos/} }
+	\vfill\null
+
+
+\cvevent
+{2017}
+	{Profesor asistente | UNAM}
+	{Solar Fotovoltaica (Dr. Karunakaran Nair) \newline Instituto de Energ\'ias Renovables, Temixco, Mor.}
+	{Actividades: Asesor\'ia a estudiantes de licenciatura y maestr\'ia para resolver problemas sobre semiconductores y celdas solares.}
+	\vfill\null
+
+
+
+\cvevent
+{2015}
+	{Asistente de laboratorio | UNAM}
+	{Electricidad y Magnetismo (M.I. Jos\'e Ortega) \newline Instituto de Energ\'ias Renovables, Temixco, Mor.}
+	{Actividades: Revisi\'on de practicas de laboratorio y asistencia t\'ecnica a estudiantes de licenciatura en el desarrollo de experimentos.}
+	\vfill\null
+
+
+\cvevent
+{2013}
+	{Profesor asistente | UNAM}
+	{Solar Fotovoltaica (Dr. Antonio J\'imenez) \newline Instituto de Energ\'ias Renovables, Temixco, Mor.}
+	{Actividades: Reuni\'on con estudiantes para resolver problemas relacionados a f\'isica de semiconductores, calificar tareas y ex\'amenes}
+	\vfill\null
+
+
+\vspace{10pt}
+\cvsection{Educaci\'on continua}
+\vspace{4pt}
+
+
+\cvevent
+{2021 - 2022}
+	{Certificaci\'on (330 hrs.) | RENAC (Alemania)}
+	{Especialista en Co-beneficios de la Energ\'ia Renovable \newline  Renewables Academy AG, Berlin, Germany}
+	{Movilizaci\'on de los Co-beneficios de la Acci\'on Clim\'atica mediante el Desarrollo de Capacidades en las Instituciones de Pol\'iticas Publicas.
+	\begin{itemize}
+		\item Modulo I. Co-beneficios colaterales de la energ\'ia renovable en la mitigaci\'on del cambio climatico.
+		\item Modulo II. Politica climatica internacional y marcos normativos para la generaci\'on de electricidad renovable.
+		\item Modulo III. Cuantificaci\'on de co-beneficios: M\'etodos de evaluaci\'on / Planificaci\'on de sistemas e\'ectricos considerando los co-beneficios
+		\item Modulo IV. Metodolog\'ias para cuantificar los impactos de las energ\'ias renovables en el empleo / Recuperaci\'on sostenible con los co-beneficios de las energ\'ias renovables. 
+	\end{itemize}
+	}
+	\vfill\null
+	
+	
+	\cvevent
+{2022}
+	{Curso (20 hrs.) | UNAM }
+	{Crash Course de Python y Jupyter Notebook \newline Instituto de Energ\'ias Renovables, Temixco, Mor. }
+	{Participaci\'on como asistente en modalidad a distancia del 17 al 21 de enero de 2022, con una duraci\'on de 20 horas.}
+	\vfill\null
+
+
+	\cvevent
+{2021}
+	{Curso (40 hrs.) | BUAP }
+	{M\'etodo Rietveld para Refinamiento Cristalino (XRD)\newline Instituto de F\'isica - Ing. Luis Rivera Terrazas}
+	{Participaci\'on como asistente en modalidad a distancia del 17 al 21 de enero de 2022, con una duraci\'on de 20 horas.}
+	\vfill\null
+
+
+	\cvevent
+{2020}
+	{Curso (2 hrs.) | Equipar, S.A. de C.V. }
+	{ Capacitaci\'on para uso de equipo \newline Instituto de F\'isica - Ing. Luis Rivera Terrazas}
+	{Constancia por haber recibido el Curso de Capacitaci\'on para el uso del Equipo: Balanza Anal\'itica Ohaus el dia 17 de febrero de 2020.}
+	\vfill\null
+	
+
+	\cvevent
+{2019}
+	{Taller (20 hrs.) | UNAM }
+	{Fabricaci\'on de Celdas Solares de Perovskita Hibrida \newline Instituto de Energ\'ias Renovables, Temixco, Mor. }
+	{Diploma por su asistencia al Taller Intensivo de 20 horas: Fabricaci\'on de Celdas Solares de Perovskita Hibrida, llevado acabo del 3 al 7 de junio de 2019.}
+	\vfill\null
+	
+
+	\cvevent
+{2018}
+	{Taller de propiedad intelectual (10 hrs.) | UNAM }
+	{La estrategia de proteger las ideas innovadoras \newline Coordinaci\'on de Innovaci\'on y Desarrollo UNAM }
+	{Constancia por su asistencia al Taller de Propiedad Intelectual, llevado acabo el 23 de agosto de 2018 8:30 a 18:30 hrs. }
+	\vfill\null
+	
+		\cvevent
+{2018}
+	{Curso (24 hrs.) | UNAM }
+	{B\'usqueda en Base de Datos y Redacci\'on de Patentes  \newline Instituto de Energ\'ias Renovables, Temixco, Mor.}
+	{Diploma por su asistencia al curso de 24 hrs. llevado acabo del 29 al 31 de agosto de 2018 }
+	\vfill\null
+	
+	
 %---------------------------------------------------------------------------------------
 %	Equipos de laboratorio
 %---------------------------------------------------------------------------------------
 
 
-\cvsection{Equipos de laboratorio}
+\cvsection{Manejo de equipos de laboratorio}
+
+\textbf{Tecnicas de dep\'osito:}  
 
 \begin{itemize}[leftmargin=*]
-\item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
-\item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
-\item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
+\item \textit{Evaporadora de metales}: deposito de contactos met\'alicos, plata (Ag) y oro (Au).  
+
+\item \textit{Sputtering DC \& RF}: dep\'osito de molibdeno (Mo) como contacto trasero de celdas solares, \'oxidos met\'alicos (ZnO) y \'oxidos conductores transparentes (ZnO:Al) como contacto frontal. 
+
+\item \textit{Ba\~no qu\'imico}: S\'intesis de calcogenuros met\'alicos en pel\'icula delgada como: sulfuro de antimonio (\ce{Sb_2S_3}) sulfuro de antimonio plata (\ce{AgSbS_2}) y sulfuro de cadmio (\ce{CdS}) . 
+
+\item \textit{Spin coating}: Preparaci\'on de oxido de titanio (\ce{TiO_2}) de 10-30 nm.
+
+\item \textit{ALD Savannah 200}: Instalaci\´on y operaci\´on de equipo para el dep\'osito de monocapas de \'oxido de aluminio (\ce{Al_2O_3}).
+\item \textit{Sulfurizaci\'on y selenizaci\'on}: Tratamiento t\'ermico aplicado a calcogenuros mat\'alicos para cristalizaci\'on y aumento de tama\~no de cristal. 
 \end{itemize}
 
+\textbf{Equipos de caracterizaci\'on:}
+ 
+\begin{itemize}[leftmargin=*]
+\item Difractometros: Rigaku Ultima IV, Empyrean Malvern Panalytical
+\item Espectrofotemetros: Shimadzu UV-1800, Shimadzu UV-3600, Jasco 650, Cary 5000
+\item Perfilometros: Ambios XP-200, Vecco Dektak 150 
+\item Efecto Hall: Ecopia HMS-5300
+\item Simulador Solar y Eficiencia Cuantica Externa (EQE)
+\item SEM/EDS: Hitachi S-5500 equipado con EDS Bruker Quantax
+\item Raman: Jobin Yvon LabRAM HR800, He-Ne laser ($\lambda$ = 632.8 nm)
+\end{itemize}
 
 
 %---------------------------------------------------------------------------------------
@@ -641,7 +791,20 @@ data of chemically deposited $Cu_3BiS_3$ thin films, \textit{J. Alloys Compd.} 8
 \mbox{}
 \vfill
 \mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
 
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
 
  \today     \hspace{1cm}   \hrulefill
 
