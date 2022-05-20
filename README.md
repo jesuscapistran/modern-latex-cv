@@ -6,8 +6,9 @@
 
 
 <p align="center">
-  A professional and modern LaTeX CV.
+  A professional and modern LaTeX CV (Spanish version)
 </p>
+
 
 
 ## 
@@ -21,23 +22,21 @@
 
 
 
-If you find this repository useful, I would appreciate :star:. This CV is based on an existing [LaTeX template](https://www.xm1math.net/texmaker/) and packs it into a nice modern, but also simple design. The tex folder contains a German version and an English version of the template. 
-
-## Preview
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/philem208/modern-latex-cv/master/resources/cover_letter.jpg" width=500>
-</p>
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/philem208/modern-latex-cv/master/resources/cv-1.jpg" width=500>
-</p>
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/philem208/modern-latex-cv/master/resources/cv-2.jpg" width=500>
-</p>
+El presente curriculum vitae (CV) es un fork del repositorio   [modern-latex-cv](https://github.com/philipempl/modern-latex-cv)   (English an German version) de [@philipempl](https://github.com/philipempl/modern-latex-cv) . El repositorio contiene la versión en español de la plantilla original.  Si te ha sido util, puedes colocar una :star:. 
 
 
 
-## Build Process
+## Vista previa
+![20220520_CV_JesusCapistra_01](20220520_CV_JesusCapistra_01.png)
 
-- clone or download this repository
-- setup any LaTeX environment,  e.g. [TEXMaker](https://www.xm1math.net/texmaker/) or [Overleaf](https://de.overleaf.com/project/new/template/18551?id=52307932&latexEngine=pdflatex&mainFile=main.tex&templateName=modern-latex-cv&texImage=texlive-full%3A2021.1) 
-- build it with pdflatex
+![20220520_CV_JesusCapistra_02](20220520_CV_JesusCapistra_02.png)
+
+![20220520_CV_JesusCapistra_03](20220520_CV_JesusCapistra_03.png)
+
+![20220520_CV_JesusCapistra_04](20220520_CV_JesusCapistra_04.png)
+
+## Proceso de creación (archivo PDF)
+
+- Clonar o descargar el repositorio
+- Instalar tu entorno favorito de Latex: [TEXMaker](https://www.xm1math.net/texmaker/) o [Overleaf](https://de.overleaf.com/project/new/template/18551?id=52307932&latexEngine=pdflatex&mainFile=main.tex&templateName=modern-latex-cv&texImage=texlive-full%3A2021.1) 
+- Crea tu archivo pdf con: pdflatex
