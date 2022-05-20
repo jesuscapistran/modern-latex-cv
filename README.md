@@ -27,13 +27,13 @@ El presente curriculum vitae (CV) es un fork del repositorio   [modern-latex-cv]
 
 
 ## Vista previa
-![20220520_CV_JesusCapistra_01](20220520_CV_JesusCapistra_01.png)
+![20220520_CV_JesusCapistra_01](resources/20220520_CV_JesusCapistra_01.png)
 
-![20220520_CV_JesusCapistra_02](20220520_CV_JesusCapistra_02.png)
+![20220520_CV_JesusCapistra_02](resources/20220520_CV_JesusCapistra_02.png)
 
-![20220520_CV_JesusCapistra_03](20220520_CV_JesusCapistra_03.png)
+![20220520_CV_JesusCapistra_03](resources/20220520_CV_JesusCapistra_03.png)
 
-![20220520_CV_JesusCapistra_04](20220520_CV_JesusCapistra_04.png)
+![20220520_CV_JesusCapistra_04](resources/20220520_CV_JesusCapistra_04.png)
 
 ## Proceso de creación (archivo PDF)
 
